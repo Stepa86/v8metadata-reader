@@ -68,17 +68,13 @@
 	
 	компонентыПути.Добавить( каталог );
 	
-	Если компоненты.Количество() = 2 Тогда
+	Если компоненты.Количество() = 2 Тогда // Передано в формате Метаданные.ИмяМетаданных
 		
-		типОбъекта = ВРег( компоненты[1] );
+		компонентыПути.Добавить(компоненты[1]);
 		
-		имяФайла = _КэшСоответствий.Модули[типОбъекта];
+		путь = СтрСоединить(компонентыПути, ПолучитьРазделительПути());
 		
-		компонентыПути.Добавить( имяФайла );
-		
-		путь = СтрСоединить( компонентыПути, ПолучитьРазделительПути() );
-		
-		_КэшПутей.Вставить( пМетаданные, путь );
+		_КэшПутей.Вставить(пМетаданные, путь);
 		
 		Возврат путь;
 		
@@ -235,58 +231,140 @@
 	Соответствие = Новый Соответствие();
 	
 	Соответствие.Вставить( "РегистрБухгалтерии", "AccountingRegisters" );
+	Соответствие.Вставить( "AccountingRegister", "AccountingRegisters" );
+
 	Соответствие.Вставить( "РегистрНакопления", "AccumulationRegisters" );
+	Соответствие.Вставить( "AccumulationRegister", "AccumulationRegisters" );
+
 	Соответствие.Вставить( "БизнесПроцесс", "BusinessProcesses" );
+	Соответствие.Вставить( "BusinessProcess", "BusinessProcesses" );
+
 	Соответствие.Вставить( "РегистрРасчета", "CalculationRegisters" );
+	Соответствие.Вставить( "CalculationRegister", "CalculationRegisters" );
+
 	Соответствие.Вставить( "Справочник", "Catalogs" );
+	Соответствие.Вставить( "Catalog", "Catalogs" );
+
 	Соответствие.Вставить( "ПланСчетов", "ChartsOfAccounts" );
+	Соответствие.Вставить( "ChartOfAccounts", "ChartsOfAccounts" );
+
 	Соответствие.Вставить( "ПланВидовРасчета", "ChartsOfCalculationTypes" );
+	Соответствие.Вставить( "ChartOfCalculationTypes", "ChartsOfCalculationTypes" );
+
 	Соответствие.Вставить( "ПланВидовХарактеристик", "ChartsOfCharacteristicTypes" );
+	Соответствие.Вставить( "ChartOfCharacteristicTypes", "ChartsOfCharacteristicTypes" );
+
 	Соответствие.Вставить( "ОбщаяГруппа", "CommandGroups" );
+	Соответствие.Вставить( "CommandGroup", "CommandGroups" );
+
 	Соответствие.Вставить( "ОбщийРеквизит", "CommonAttributes" );
+	Соответствие.Вставить( "CommonAttribute", "CommonAttributes" );
+
 	Соответствие.Вставить( "ОбщаяКоманда", "CommonCommands" );
+	Соответствие.Вставить( "CommonCommand", "CommonCommands" );
+
 	Соответствие.Вставить( "ОбщаяФорма", "CommonForms" );
+	Соответствие.Вставить( "CommonForm", "CommonForms" );
+
 	Соответствие.Вставить( "ОбщийМодуль", "CommonModules" );
+	Соответствие.Вставить( "CommonModule", "CommonModules" );
+
 	Соответствие.Вставить( "ОбщаяКартинка", "CommonPictures" );
+	Соответствие.Вставить( "CommonPicture", "CommonPictures" );
+	
 	Соответствие.Вставить( "ОбщийМакет", "CommonTemplates" );
+	Соответствие.Вставить( "CommonTemplate", "CommonTemplates" );
+
 	Соответствие.Вставить( "Константа", "Constants" );
+	Соответствие.Вставить( "Constant", "Constants" );
+
 	Соответствие.Вставить( "Обработка", "DataProcessors" );
+	Соответствие.Вставить( "DataProcessor", "DataProcessors" );
+
 	Соответствие.Вставить( "ОпределяемыйТип", "DefinedTypes" );
+	Соответствие.Вставить( "DefinedType", "DefinedTypes" );
+
 	Соответствие.Вставить( "ЖурналДокумента", "DocumentJournals" );
+	Соответствие.Вставить( "DocumentJournal", "DocumentJournals" );
+
 	Соответствие.Вставить( "Нумератор", "DocumentNumerators" );
+
 	Соответствие.Вставить( "Документ", "Documents" );
+	Соответствие.Вставить( "Document", "Documents" );
+
 	Соответствие.Вставить( "Перечисление", "Enums" );
+	Соответствие.Вставить( "Enum", "Enums" );
+
 	Соответствие.Вставить( "ПодпискаНаСобытие", "EventSubscriptions" );
+	Соответствие.Вставить( "EventSubscription", "EventSubscriptions" );
+
 	Соответствие.Вставить( "ПланОбмена", "ExchangePlans" );
+	Соответствие.Вставить( "ExchangePlan", "ExchangePlans" );
+	
 	Соответствие.Вставить( "ВнешнийИсточник", "ExternalDataSources" );
+	Соответствие.Вставить( "ExternalDataSource", "ExternalDataSources" );
+	
 	Соответствие.Вставить( "КритерийОтбора", "FilterCriteria" );
+	Соответствие.Вставить( "FilterCriterion", "FilterCriteria" );
+
 	Соответствие.Вставить( "ФункциональнаяОпция", "FunctionalOptions" );
+	Соответствие.Вставить( "FunctionalOption", "FunctionalOptions" );
+
 	Соответствие.Вставить( "ПарамертФункциональыхОпций", "FunctionalOptionsParameters" );
+	Соответствие.Вставить( "FunctionalOptionsParameter", "FunctionalOptionsParameters" );
+	
 	Соответствие.Вставить( "HTTPСервис", "HTTPServices" );
+	Соответствие.Вставить( "HTTPService", "HTTPServices" );
+
 	Соответствие.Вставить( "РегистрСведений", "InformationRegisters" );
+	Соответствие.Вставить( "InformationRegister", "InformationRegisters" );
+
 	Соответствие.Вставить( "Язык", "Languages" );
+
 	Соответствие.Вставить( "Отчет", "Reports" );
+	Соответствие.Вставить( "Report", "Reports" );
+
 	Соответствие.Вставить( "Роль", "Roles" );
+	Соответствие.Вставить( "Role", "Roles" );
+
 	Соответствие.Вставить( "РегламентноеЗадание", "ScheduledJobs" );
+	Соответствие.Вставить( "ScheduledJob", "ScheduledJobs" );
+
 	Соответствие.Вставить( "Последовательность", "Sequences" );
+	Соответствие.Вставить( "Sequence", "Sequences" );
+
 	Соответствие.Вставить( "ПарамертСеанса", "SessionParameters" );
+	Соответствие.Вставить( "SessionParameter", "SessionParameters" );
+	
 	Соответствие.Вставить( "ХранилищеНастроек", "SettingsStorages" );
+	Соответствие.Вставить( "SettingsStorage", "SettingsStorages" );
+
 	Соответствие.Вставить( "ЭлементСтиля", "StyleItems" );
+	Соответствие.Вставить( "StyleItem", "StyleItems" );
+
 	Соответствие.Вставить( "Подсистема", "Subsystems" );
+	Соответствие.Вставить( "Subsystem", "Subsystems" );
+
 	Соответствие.Вставить( "Задача", "Tasks" );
+	Соответствие.Вставить( "Task", "Tasks" );
+
 	Соответствие.Вставить( "WebСервис", "WebServices" );
+	Соответствие.Вставить( "WebService", "WebServices" );
+
 	Соответствие.Вставить( "XDTOПакет", "XDTOPackages" );
 	Соответствие.Вставить( "XDTOPackage", "XDTOPackages" );
 	
 	Если _ЭтоВыгрузкаКонфигуратора Тогда
 		
 		Соответствие.Вставить( "Конфигурация", "Ext" );
+		Соответствие.Вставить( "Configuration", "Ext" );
 		
 	КонецЕсли;
 	
 	Если _ЭтоВыгрузкаЕДТ Тогда
 		
 		Соответствие.Вставить( "Конфигурация", "Configuration" );
+		Соответствие.Вставить( "Configuration", "Configuration" );
 		
 	КонецЕсли;
 	
