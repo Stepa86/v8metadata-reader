@@ -46,7 +46,7 @@
 		<Metadata name="CommonModule.ОбщийМодуль1.Module" id="ae50b469-6758-4696-9d5f-4041f055d466.0" configVersion="9ce4b071db046445bac197980dc5994200000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинка1" id="dcf3bd9a-53c2-42f6-b901-1ca2fe40c813" configVersion="f469106ae3fa034e990dd30fe253c93500000000"/>
 		<Metadata name="CommonTemplate.Макет" id="e0b7bd26-100c-41d2-a980-2ec66e3dabfc" configVersion="7337ecc8cc7395498a192944990b87ca00000000"/>
-		<Metadata name="Configuration.ОсновнаяБаза" id="2fb92ef7-8fd7-416c-a8f4-cba9bc3cda0c" configVersion="3130aecc066e1c4ea3ce9f369f262a1100000000"/>
+		<Metadata name="Configuration.ОсновнаяБаза" id="2fb92ef7-8fd7-416c-a8f4-cba9bc3cda0c" configVersion="c940a06bfd656f4d930aeda70470696f00000000"/>
 		<Metadata name="Configuration.ОсновнаяБаза.ExternalConnectionModule" id="f1543bfa-cc65-4b75-8c09-6bfe462abb9e.5" configVersion="0d01d83625e31c49a1679f149a7f1b3400000000"/>
 		<Metadata name="Configuration.ОсновнаяБаза.ManagedApplicationModule" id="f1543bfa-cc65-4b75-8c09-6bfe462abb9e.6" configVersion="b02ce55f60448e49843ba419e80a1a9700000000"/>
 		<Metadata name="Configuration.ОсновнаяБаза.ParentConfigurations" id="f1543bfa-cc65-4b75-8c09-6bfe462abb9e.4" configVersion="17b080cc7d37c54a9d41afafdd010fec00000000"/>
@@ -90,6 +90,10 @@
 		<Metadata name="Style.Стиль1" id="353bcbc8-7b9e-43f0-8d05-9c82ea1b39ad" configVersion="cb44549d07352a4d8364e7901f4bd21800000000"/>
 		<Metadata name="StyleItem.ЭлементСтиля1" id="f2400918-8bbb-4e6a-b4e3-05d4ad54b9ff" configVersion="4f8683add30ad640bf423190ca184d1100000000"/>
 		<Metadata name="Subsystem.Подсистема1" id="10f9d9fa-c553-484b-87dc-d9c3471bc83b" configVersion="cb9bc632c2a4c04ebbbba70632d5154900000000"/>
+		<Metadata name="Subsystem.СправочникиИДокументы" id="de78014b-742f-4105-b846-d37058dc80c1" configVersion="59df088a0a84da4b8ae44f9ff3adaa2600000000"/>
+		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник1" id="11ccf0ec-cbc6-4e68-90dc-375818b9e2f2" configVersion="2024fcaead4b4245902de15385f11edb00000000"/>
+		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник2" id="28d7d4ca-d733-4d8c-9ba9-d2a4eb1c7171" configVersion="fbcad5eb1730f1468343dd95cd2c7ee600000000"/>
+		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник2.Subsystem.Отчеты" id="8f4c4a7f-b3c3-40d8-97d8-722c4aa6081f" configVersion="77a14025ef4328429bdcbd505fe760cf00000000"/>
 		<Metadata name="Task.Задача1" id="d22bb932-8f7c-4cf5-8070-952afae8d17e" configVersion="18e078ccc4169b48b8682ac5d162ec9a00000000"/>
 		<Metadata name="WebService.WebСервис1" id="1d1aa166-b162-4981-9407-ae0611c7ba0f" configVersion="062754483abcf24886074411292bfdf700000000">
 			<Metadata name="WebService.WebСервис1.Operation.Операция1" id="c6c0518f-51ac-4551-8121-516c396f213f"/>

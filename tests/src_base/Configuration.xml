@@ -207,6 +207,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Подсистема1</Subsystem>
+			<Subsystem>СправочникиИДокументы</Subsystem>
 			<StyleItem>ЭлементСтиля1</StyleItem>
 			<Style>Стиль1</Style>
 			<CommonPicture>ОбщаяКартинка1</CommonPicture>
