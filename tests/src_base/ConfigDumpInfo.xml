@@ -90,7 +90,7 @@
 		<Metadata name="Style.Стиль1" id="353bcbc8-7b9e-43f0-8d05-9c82ea1b39ad" configVersion="cb44549d07352a4d8364e7901f4bd21800000000"/>
 		<Metadata name="StyleItem.ЭлементСтиля1" id="f2400918-8bbb-4e6a-b4e3-05d4ad54b9ff" configVersion="4f8683add30ad640bf423190ca184d1100000000"/>
 		<Metadata name="Subsystem.Подсистема1" id="10f9d9fa-c553-484b-87dc-d9c3471bc83b" configVersion="cb9bc632c2a4c04ebbbba70632d5154900000000"/>
-		<Metadata name="Subsystem.СправочникиИДокументы" id="de78014b-742f-4105-b846-d37058dc80c1" configVersion="59df088a0a84da4b8ae44f9ff3adaa2600000000"/>
+		<Metadata name="Subsystem.СправочникиИДокументы" id="de78014b-742f-4105-b846-d37058dc80c1" configVersion="67a8d0c083d0cc4a85d99c10fde3218a00000000"/>
 		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник1" id="11ccf0ec-cbc6-4e68-90dc-375818b9e2f2" configVersion="2024fcaead4b4245902de15385f11edb00000000"/>
 		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник2" id="28d7d4ca-d733-4d8c-9ba9-d2a4eb1c7171" configVersion="fbcad5eb1730f1468343dd95cd2c7ee600000000"/>
 		<Metadata name="Subsystem.СправочникиИДокументы.Subsystem.Справочник2.Subsystem.Отчеты" id="8f4c4a7f-b3c3-40d8-97d8-722c4aa6081f" configVersion="77a14025ef4328429bdcbd505fe760cf00000000"/>
