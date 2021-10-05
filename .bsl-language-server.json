@@ -1,0 +1,14 @@
+{
+    "$schema": "https://1c-syntax.github.io/bsl-language-server/configuration/schema.json",
+    "language": "ru",
+    "diagnostics": {
+        "computeTrigger": "onType",
+        "parameters": {
+            "LineLength": {
+                "maxLineLength": 140
+            },
+            "TernaryOperatorUsage": true,
+            "NestedFunctionInParameters": false
+        }
+    }
+}
