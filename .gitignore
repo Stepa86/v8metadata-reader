@@ -1,3 +1,6 @@
 *.ospx
-tests.xml
-oscript_modules/
+
+tests-reports/
+.scannerwork/
+.sonar/
+out/
