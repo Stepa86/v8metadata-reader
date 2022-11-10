@@ -388,6 +388,9 @@
 		
 		Соответствие.Вставить("Конфигурация", "Configuration");
 		Соответствие.Вставить("Configuration", "Configuration");
+
+		Соответствие.Вставить("ВнешняяОбработка", "ExternalDataProcessors");
+		Соответствие.Вставить("ExternalDataProcessor", "ExternalDataProcessors"); 
 		
 	КонецЕсли;
 	
