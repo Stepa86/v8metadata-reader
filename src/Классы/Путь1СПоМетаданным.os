@@ -325,6 +325,7 @@
 	Соответствие.Вставить("ExchangePlan", "ExchangePlans");
 	
 	Соответствие.Вставить("ВнешнийИсточник", "ExternalDataSources");
+	Соответствие.Вставить("ВнешнийИсточникДанных", "ExternalDataSources");
 	Соответствие.Вставить("ExternalDataSource", "ExternalDataSources");
 	
 	Соответствие.Вставить("КритерийОтбора", "FilterCriteria");
